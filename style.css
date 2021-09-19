@@ -53,6 +53,7 @@ body {
     margin: 2% 5%;
   }
 }
+
 .offcanvas .offcanvas-header .btn-close {
   filter: brightness(0) invert(1);
 }
@@ -96,6 +97,7 @@ body {
 /* Hero section */
 section {
   width: 100%;
+  position: relative;
 }
 /* .hero {
   margin: 5% 9%;
@@ -181,7 +183,8 @@ section {
 
 /* --------------Features------------ */
 
-.features .heading {
+.features .heading,
+.extensions .heading {
   text-align: center;
   width: 550px;
 }
@@ -219,6 +222,19 @@ section {
 .image-section {
   position: relative;
 }
+.tab1 p {
+  color: hsl(229, 8%, 60%);
+}
+.tab1 h2 {
+  font-weight: 700;
+}
+.tab1-img {
+  width: 100%;
+}
+.tab1-text {
+  width: 500px;
+}
+
 .tab1_image-pattern {
   width: 82%;
   padding-top: 53%;
@@ -226,20 +242,11 @@ section {
   position: absolute;
   z-index: 2;
   bottom: 0rem;
-  right: 0;
+  left: 0;
   border-radius: 0rem 20rem 20rem 0rem;
-}
-.tab1-img {
-  width: 100%;
-  /* margin-left: 120px; */
-}
-.tab1-text {
-  width: 500px;
-  /* margin-right: 80px; */
 }
 @media (max-width: 800px) {
   .tab1 {
-    /* margin: 8% 9%; */
     flex-wrap: wrap;
   }
 
@@ -250,5 +257,62 @@ section {
   }
   .features .heading {
     width: 280px;
+  }
+}
+
+/* -----------Extensions----------------- */
+.card-in {
+  margin: 20px;
+  box-shadow: 4px 4px 15px hsl(220, 6%, 90%);
+  height: 300px;
+  width: 230px;
+  border-radius: 8px;
+}
+
+.card-in h3 {
+  color: hsl(229, 31%, 21%);
+  font-weight: 700;
+}
+.card-in p {
+  color: hsl(229, 8%, 60%);
+}
+.card-in .btnss {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  box-shadow: 1px 2px 5px hsl(228, 4%, 76%);
+  border-radius: 3px;
+}
+.card-in .btnss:hover {
+  border: 1px solid hsl(231, 69%, 60%);
+  background-color: white;
+  color: hsl(231, 69%, 60%);
+}
+.card-in .dots {
+  padding-bottom: 10px;
+}
+.card2 {
+  margin-top: 60px;
+}
+.card3 {
+  margin-top: 120px;
+}
+
+@media (max-width: 800px) {
+  .cardss {
+    flex-wrap: wrap;
+  }
+  .extensions .heading {
+    width: 280px;
+  }
+  .card-in {
+    width: 250px;
+  }
+  .card2 {
+    margin-top: 0px;
+  }
+  .card3 {
+    margin-top: 0px;
   }
 }

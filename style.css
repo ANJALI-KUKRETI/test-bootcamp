@@ -293,10 +293,10 @@ section {
   padding-bottom: 10px;
 }
 .card2 {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .card3 {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 @media (max-width: 800px) {
@@ -314,5 +314,24 @@ section {
   }
   .card3 {
     margin-top: 0px;
+  }
+}
+
+/* --------------Accordions---------------- */
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  width: 600px;
+}
+.accordion-body {
+  padding: 1rem 1.25rem;
+  width: 600px;
+}
+@media (max-width: 800px) {
+  .accordion-flush .accordion-item .accordion-button {
+    width: 320px;
+    font-size: 15px;
+  }
+  .accordion-body {
+    width: 320px;
   }
 }

@@ -97,11 +97,12 @@ body {
 section {
   width: 100%;
 }
-.hero {
+/* .hero {
   margin: 5% 9%;
-}
+} */
 .hero-text {
   width: 500px;
+  margin-left: 150px;
 }
 .hero p {
   color: hsl(229, 8%, 60%);
@@ -113,6 +114,7 @@ section {
 }
 .hero-img {
   width: 100%;
+  margin-right: 40px;
 }
 .image-section {
   position: relative;
@@ -153,8 +155,14 @@ section {
 }
 @media (max-width: 800px) {
   .hero {
-    margin: 8% 9%;
+    /* margin: 8% 9%; */
     flex-wrap: wrap-reverse;
+  }
+  .hero-text {
+    margin: 10px;
+  }
+  .hero-img {
+    margin-right: 0px;
   }
 
   .btn1 {
@@ -169,4 +177,18 @@ section {
     align-items: center;
     text-align: center;
   }
+}
+
+/* --------------Features------------ */
+.features {
+  text-align: center;
+  width: 550px;
+}
+
+.features-title {
+  color: hsl(229, 31%, 21%);
+  font-weight: 700;
+}
+.features-body {
+  color: hsl(229, 8%, 60%);
 }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bookmark landing page</title>
+  </head>
+  <body>
+    <!-- -------------Header--------------- -->
+
+    <!-- Navbar -->
+    <header>
+      <div
+        class="
+          navbar
+          d-flex
+          main-nav
+          justify-content-between
+          align-items-center
+        "
+      >
+        <div class="logo">
+          <img src="images/logo-bookmark.svg" alt="logo" class="img-fluid" />
+        </div>
+        <div class="nav-items">
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+          <a href="">Contact</a>
+          <button type="button" class="btn">Login</button>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar reponsive -->
+    <nav class="navbar nav-respo navbar-light off fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo-bookmark.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="images/logo-bookmark.svg" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body text-center">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item m-4">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Features</a
+                >
+              </li>
+              <hr />
+              <li class="nav-item m-4">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <hr />
+              <li class="nav-item m-4">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <hr />
+            </ul>
+
+            <button class="btn m-4 submit" type="submit">LOGIN</button>
+          </div>
+          <div class="social">
+            <img src="images/icon-facebook.svg" alt="" />
+            <img src="images/icon-twitter.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

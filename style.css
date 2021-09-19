@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  margin: 3% 9%;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 0px 20px;
+  color: hsl(229, 31%, 21%);
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+.navbar a:hover {
+  color: hsl(0, 94%, 66%);
+}
+.main-nav button {
+  text-transform: uppercase;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  padding: 7px 25px;
+  font-size: 14px;
+  margin-left: 10px;
+  box-shadow: 1px 2px 5px hsl(228, 4%, 76%);
+}
+.main-nav button:hover {
+  color: hsl(0, 94%, 66%);
+  background-color: white;
+  border-color: hsl(0, 94%, 66%);
+}
+
+.off {
+  display: none;
+}
+@media (max-width: 800px) {
+  .off {
+    display: block;
+  }
+  header {
+    display: none;
+  }
+  .navbar {
+    margin: 2% 5%;
+  }
+}
+.offcanvas .offcanvas-header .btn-close {
+  filter: brightness(0) invert(1);
+}
+.offcanvas-header img {
+  filter: brightness(0) invert(1);
+}
+.offcanvas {
+  background-color: hsl(229, 31%, 21%, 0.9);
+}
+.offcanvas .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.offcanvas .navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 18px;
+}
+.offcanvas .submit {
+  color: white;
+  border: 2px solid;
+  border-color: white;
+  font-weight: bold;
+  padding: 10px 120px;
+}
+.offcanvas .submit:hover {
+  color: black;
+  background-color: white;
+}
+.offcanvas hr {
+  color: rgb(255, 255, 255, 0.8);
+}
+.offcanvas .social {
+  margin: 40px auto;
+}
+.offcanvas .social img {
+  padding: 20px;
+}

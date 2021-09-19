@@ -326,6 +326,7 @@ section {
   padding: 1rem 1.25rem;
   width: 600px;
 }
+
 @media (max-width: 800px) {
   .accordion-flush .accordion-item .accordion-button {
     width: 320px;
@@ -333,5 +334,98 @@ section {
   }
   .accordion-body {
     width: 320px;
+  }
+}
+
+/* Footer-1 */
+.footer1 {
+  background-color: hsl(231, 69%, 60%);
+  padding: 45px;
+  color: white;
+}
+.footer1 div {
+  padding: 10px;
+}
+.r1 {
+  letter-spacing: 5px;
+}
+.r2 {
+  width: 500px;
+  text-align: center;
+}
+.footer1 input {
+  padding: 10px 30px;
+  border: none;
+}
+.footer1-btn {
+  text-transform: uppercase;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+.footer1-btn:hover {
+  color: hsl(0, 94%, 66%);
+  background-color: white;
+  border-color: hsl(0, 94%, 66%);
+  border: 2px solid;
+}
+.footer1 {
+  margin-top: 100px;
+}
+@media (max-width: 800px) {
+  .r2 {
+    width: 300px;
+  }
+  .r1 {
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+  .r3 {
+    flex-direction: column;
+  }
+  .footer1-btn {
+    width: 100%;
+  }
+}
+
+/* -----footer--2---------- */
+.footer2 {
+  background-color: hsl(229, 31%, 21%);
+  padding: 10px;
+}
+.footer2 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.footer2 .bookmark-f {
+  filter: brightness(0) invert(1);
+  padding: 10px 20px;
+}
+.footer2 a:hover {
+  color: hsl(0, 94%, 66%);
+}
+.footer2 .soc {
+  padding: 10px 20px;
+}
+.footer2 .links {
+  text-transform: uppercase;
+}
+.footer-social img :hover {
+  color: hsl(0, 94%, 66%);
+}
+@media (max-width: 800px) {
+  .footer2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer2 .links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bookmark-f {
+    width: 200px;
+    height: 50px;
   }
 }

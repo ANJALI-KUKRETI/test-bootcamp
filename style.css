@@ -10,7 +10,7 @@ body {
 
 /* Navbar */
 .navbar {
-  margin: 3% 9%;
+  margin: 3% 10%;
 }
 .navbar a {
   text-decoration: none;
@@ -91,4 +91,82 @@ body {
 }
 .offcanvas .social img {
   padding: 20px;
+}
+
+/* Hero section */
+section {
+  width: 100%;
+}
+.hero {
+  margin: 5% 9%;
+}
+.hero-text {
+  width: 500px;
+}
+.hero p {
+  color: hsl(229, 8%, 60%);
+}
+
+.hero h1 {
+  font-weight: 700;
+  color: hsl(229, 31%, 21%);
+}
+.hero-img {
+  width: 100%;
+}
+.image-section {
+  position: relative;
+}
+.intro__image-pattern {
+  width: 82%;
+  padding-top: 53%;
+  background: hsl(231, 69%, 60%);
+  position: absolute;
+  z-index: -1;
+  bottom: 0rem;
+  right: 0;
+  border-radius: 20rem 0 0 20rem;
+}
+.btn1 {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  margin: 2px;
+  padding: 8px 20px;
+  box-shadow: 1px 2px 5px hsl(228, 4%, 76%);
+}
+.btn1:hover {
+  border-color: hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  background-color: white;
+}
+.btn2 {
+  background-color: hsl(230, 11%, 89%);
+  margin: 2px;
+  padding: 8px 20px;
+  color: hsl(229, 31%, 21%);
+  box-shadow: 1px 2px 5px hsl(228, 4%, 76%);
+}
+.btn2:hover {
+  border-color: hsl(229, 31%, 21%);
+  color: hsl(229, 31%, 21%);
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .hero {
+    margin: 8% 9%;
+    flex-wrap: wrap-reverse;
+  }
+
+  .btn1 {
+    margin: 1px;
+    padding: 8px 10px;
+  }
+  .btn2 {
+    margin: 1px;
+    padding: 8px 10px;
+  }
+  .hero-text {
+    align-items: center;
+    text-align: center;
+  }
 }

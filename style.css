@@ -57,9 +57,7 @@ body {
 .offcanvas .offcanvas-header .btn-close {
   filter: brightness(0) invert(1);
 }
-.offcanvas-header img {
-  filter: brightness(0) invert(1);
-}
+
 .offcanvas {
   background-color: hsl(229, 31%, 21%, 0.9);
 }
@@ -416,7 +414,6 @@ section {
   padding: 10px 20px;
 }
 .footer2 .bookmark-f {
-  filter: brightness(0) invert(1);
   padding: 10px 20px;
 }
 .footer2 a:hover {
